@@ -71,6 +71,7 @@ Build a second class for a Custom Element that holds multiple tasks (as custom e
 you defined in task 1) and displays these in a list
 
 ![image](second_pic.png)
+
 Once the element has been added to the DOM, the tasks should be fetched from the server
 (using the https://xxx.com/Tasks/Get endpoint; again: this is an imaginary endpoint) and
 displayed as a list.
