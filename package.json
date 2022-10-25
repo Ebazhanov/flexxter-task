@@ -1,0 +1,11 @@
+{
+  "name": "flexxter-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ebazhanov/flexxter-task.git",
+  "author": "ebazhanov <evg.bazhanov@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
