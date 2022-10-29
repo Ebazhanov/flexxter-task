@@ -58,7 +58,7 @@ This element should include the following properties: id, title, description, ch
     },
 ```
 
-![image](First_picture.png)
+![image](first_picture.png)
 
 Whenever the user clicks on this element the element’s checked property should change (to
 false or to true depending on the previous value). Additionally, a POST request should be sent
