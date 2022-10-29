@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import CheckItem from "../component/CheckItem";
+import CheckItem from "../components/CheckItem";
 
 test("check item", async () => {
   const item = {

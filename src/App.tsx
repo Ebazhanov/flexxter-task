@@ -1,5 +1,5 @@
 import React from "react";
-import CheckList from "./component/CheckList";
+import CheckList from "./components/CheckList";
 
 function App() {
   return (

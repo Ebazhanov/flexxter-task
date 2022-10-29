@@ -33,10 +33,11 @@ const CheckList: FunctionComponent = () => {
   }, []);
 
   const toggleStatus = (id: number) => {
-    const items = [...list];
-    items[items.findIndex((i) => i.id === id)].checked =
-      !items[items.findIndex((i) => i.id === id)].checked;
-    setList(items);
+    setList(
+      list.map((item) =>
+        item.id === id ? { ...item, checked: !item.checked } : item
+      )
+    );
   };
 
   return (
