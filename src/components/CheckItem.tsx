@@ -8,8 +8,6 @@ type ItemProps = {
 };
 
 const CheckItem: FunctionComponent<ItemProps> = ({ item, onClick }) => {
-  const cls = (...classes: string[]) => classes.filter(Boolean).join(" ");
-
   const itemClicked = () => {
     // here we should call POST https://xxx.com/Tasks/Save and update the list
     onClick(item.id);
@@ -22,10 +20,9 @@ const CheckItem: FunctionComponent<ItemProps> = ({ item, onClick }) => {
       onClick={() => itemClicked()}
     >
       <div
-        className={cls(
-          "w-12 h-12 rounded-full flex items-center justify-center",
+        className={`w-12 h-12 rounded-full flex items-center justify-center border border-gray-400 ${
           item.checked ? "bg-green-500" : "bg-gray-300 border border-gray-400"
-        )}
+        }`}
         data-testid="item-check"
       >
         {item.checked && <CheckIcon className="text-white w-8 h-8" />}
