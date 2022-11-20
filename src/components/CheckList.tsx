@@ -25,8 +25,8 @@ const CheckList: FunctionComponent = () => {
       },
       {
         id: 3,
-        title: "test todo 3",
-        description: "description for test todo 3",
+        title: "Test requirements",
+        description: "All pages and description",
         checked: false,
       },
     ]);
