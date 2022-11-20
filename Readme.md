@@ -1,4 +1,4 @@
-
+[![job](https://github.com/ebazhanov/flexxter-task/actions/workflows/unit-tests.yml/badge.svg?event=push)](https://github.com/Ebazhanov/flexxter-task/actions)
 
 # Testing task
 
